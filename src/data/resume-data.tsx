@@ -1,236 +1,170 @@
 import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about: "Full Stack Engineer dedicated to building high-quality products.",
+  name: "Robert Sfichi",
+  initials: "RS",
+  location: "Cluj-Napoca, Romania, EET",
+  locationLink: "https://www.google.com/maps/place/Cluj-Napoca",
+  about: "Full stack software engineer specializing in taking ideas from concept to production.",
   summary: (
     <>
-      Full Stack Engineer specializing in high-performance React applications,
-      scalable Node.js services, and real-time collaboration systems.
-      Experienced in technical architecture design and remote team leadership.
+      Self-taught software engineer who builds and launches products independently.
+      Generalist across the full stack—from designing scalable architectures and APIs
+      to crafting user interfaces.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://lh3.googleusercontent.com/a/ACg8ocLPOIZNAaz-mMkBQTlC5dRHu7pbnAicismtuy3hqrDfuqdzbXU3SQ=s576-c-no",
+  personalWebsiteUrl: "",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "robsfichi@gmail.com",
+    tel: "+40752630507",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/robsltd",
         icon: "github",
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/robertsfichi/",
         icon: "linkedin",
       },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: "x",
-      },
+      // {
+      //   name: "X",
+      //   url: "https://x.com/BartoszJarocki",
+      //   icon: "x",
+      // },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "UBB, Universitatea Babeș-Bolyai",
+      degree: "Bachelor's Degree in Advertising",
+      start: "2014",
+      end: "2017",
     },
   ],
   work: [
     {
-      company: "Motion",
-      link: "https://motionapp.com/",
-      badges: ["Remote", "AI", "React", "Next.js", "TypeScript", "AdonisJS"],
-      title: "Senior Software Engineer",
-      start: "2025",
-      end: null,
-      description: (
-        <>
-          Working on internal AI agents platform allowing marketing specialists
-          to create AI workflows.
-        </>
-      ),
-    },
-    {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      start: "2024",
-      end: "2025",
-      description: (
-        <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
-            </li>
-            <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
-            </li>
-            <li>
-              Implementing system-wide monitoring and security improvements
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      start: "2021",
+      company: "VEED.IO",
+      link: "https://veed.io/",
+      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js", "GCP", "GraphQL"],
+      title: "Software Engineer",
+      start: "2022",
       end: "2024",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
           <ul className="list-inside list-disc">
-            <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
-            </li>
-            <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
-            </li>
+            <li>Built internal tools to improve developer experience and streamline workflows<br /></li>
+            <li>Migrated monolithic legacy API to microservices architecture<br /></li>
+            <li>Implemented performance improvements to the rendering pipeline, helping optimize system resources and reduce processing time<br /></li>
+            <li>Advocated for company-wide adoption of automated testing frameworks and successfully onboarded other teams to these testing practices after implementing it in our own<br /></li>
+            <li>Supported growth initiatives by developing landing pages for free tools that increased organic traffic<br /></li>
           </ul>
         </>
       ),
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      start: "2015",
+      company: "Jeco.dev",
+      link: "https://jeco.dev/",
+      badges: ["Remote", "React", "Next.js", "TypeScript",],
+      title: "Software Engineer",
+      start: "2019",
       end: "2021",
+
       description: (
         <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
+          Building and scaling products for clients and internal ventures.
+          <br /><br />
           <ul className="list-inside list-disc">
             <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
+              Migrated <a href="https://webscrapingapi.com/" style={{
+                fontWeight
+                  : "bold"
+              }}>WebScrapingAPI.com</a>'s legacy monolith to AWS, significantly reducing infrastructure costs
             </li>
             <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
+              Built <a style={{
+                fontWeight
+                  : "bold"
+              }} href="https://startupcafe.ro/gumzzz-platforma-it-stomatologie-finantare-htm-12825">Gumzzz.com</a> dental platform from scratch, collaborating with designers,
+              product owners, and marketers to deliver complete features including real-time
+              chat system and clinic/doctor management systems
             </li>
             <li>
-              Led development teams across multiple successful client projects
+              Full-stack development across multiple product launches
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      start: "2012",
-      end: "2015",
+      company: "Sunny Side Up",
+      link: "https://www.sunnysideup.agency/",
+      badges: ["On Site", "Adobe Premiere Pro", "After Effects"],
+      title: "Filme Editor & Camera Operator",
+      start: "2015",
+      end: "2019",
       description: (
         <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
+          Created commercials for local and global brands, working across roles including
+          director, script-writer, camera operator, and editor.
         </>
       ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
     },
   ],
   skills: [
-    "React/Next.js/Remix",
+    "React",
+    "Next.js",
     "TypeScript",
     "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
+    "Remotion",
+    "Vite",
     "WebSockets",
     "Node.js",
     "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Cloudflare",
+    "AWS",
+    "GCP",
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
-      description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Consultly",
+      title: "letslock.in",
       techStack: [
         "TypeScript",
-        "Next.js",
+        "React",
         "Vite",
-        "GraphQL",
-        "WebRTC",
         "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
+        "Solana",
+        "Rust",
+        "Anchor",
+        "Cloudflare"
       ],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
+        "Blockchain based accountability platform. Users stake USDC when committing. When they miss their goal, funds are automatically transferred to the penalty recipient.",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "letslock.in",
+        href: "https://letslock.in/",
       },
     },
     {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      title: "Explainer Slop",
+      techStack: ["TypeScript", "React", "Vite", "Remotion", "AWS Lambda + S3", "Whisper API", "Cloudflare"],
       description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
+        "Completely automated video generation tool that creates dialogue explainer videos between Stewie and Peter Griffin.",
       link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "Explainer Slop",
+        href: "https://explainerslop.xyz/",
+      },
+    },
+    {
+      title: "Cite Buddy",
+      techStack: ["TypeScript", "Browser Extension", "openAI API"],
+      description:
+        "AI-powered citation generator Chrome extension supporting APA, MLA, Chicago, and 10+ citation formats with one-click source citation copying.",
+      link: {
+        label: "Chrome Web Store",
+        href: "https://chromewebstore.google.com/detail/citebuddy-ai-citation-gen/hgmbbabapfgpciejfeoibakcbflnfpbm?authuser=1",
       },
     },
   ],
