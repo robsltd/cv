@@ -13,6 +13,8 @@ const nextConfig = {
   // Compress output
   compress: true,
 
+  output: 'export',
+
   // Enable SWC minification
   swcMinify: true,
 
