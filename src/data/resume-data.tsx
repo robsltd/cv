@@ -158,7 +158,7 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "Explainer Slop",
-      techStack: ["TypeScript", "React", "Vite", "Remotion", "AWS Lambda + S3", "Whisper API", "Cloudflare"],
+      techStack: ["Remotion", "AWS Lambda + S3", "Whisper API", "TypeScript", "React", "Vite", "Cloudflare"],
       description:
         "Completely automated video generation tool that creates dialogue explainer videos between Stewie and Peter Griffin.",
       link: {
@@ -168,7 +168,7 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "Cite Buddy",
-      techStack: ["TypeScript", "Browser Extension", "openAI API"],
+      techStack: ["Browser Extension", "openAI API", "TypeScript"],
       description:
         "AI-powered citation generator Chrome extension supporting APA, MLA, Chicago, and 10+ citation formats with one-click source citation copying.",
       link: {
