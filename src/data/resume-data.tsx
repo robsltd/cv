@@ -5,7 +5,7 @@ export const RESUME_DATA: ResumeData = {
   initials: "RS",
   location: "Cluj-Napoca, Romania, EET",
   locationLink: "https://www.google.com/maps/place/Cluj-Napoca",
-  about: "Full stack software engineer specializing in taking products from concept to production.",
+  about: "Full-stack software engineer specializing in taking products from concept to production.",
   summary: (
     <>
       Self-taught software engineer building and launching products independently.
@@ -48,7 +48,7 @@ export const RESUME_DATA: ResumeData = {
     {
       company: "VEED.IO",
       link: "https://veed.io/",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js", "GCP", "GraphQL"],
+      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js", "Docker", "GCP", "GraphQL"],
       title: "Software Engineer",
       start: "2022",
       end: "2024",
@@ -67,7 +67,7 @@ export const RESUME_DATA: ResumeData = {
     {
       company: "Jeco.dev",
       link: "https://jeco.dev/",
-      badges: ["Remote", "React", "Next.js", "TypeScript",],
+      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js", "AWS", "Digital Ocean"],
       title: "Software Engineer",
       start: "2019",
       end: "2021",
