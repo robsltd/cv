@@ -48,7 +48,7 @@ export const RESUME_DATA: ResumeData = {
     {
       company: "VEED.IO",
       link: "https://veed.io/",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js", "Docker", "GCP", "GraphQL"],
+      badges: ["Remote", "Next.js", "TypeScript", "Node.js", "Docker", "GCP", "GraphQL"],
       title: "Software Engineer",
       start: "2022",
       end: "2024",
@@ -67,7 +67,7 @@ export const RESUME_DATA: ResumeData = {
     {
       company: "Jeco.dev",
       link: "https://jeco.dev/",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js", "AWS", "Digital Ocean"],
+      badges: ["Remote", "Next.js", "JavaScript", "Node.js", "AWS", "Digital Ocean"],
       title: "Software Engineer",
       start: "2019",
       end: "2021",
