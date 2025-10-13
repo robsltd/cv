@@ -56,10 +56,11 @@ export const RESUME_DATA: ResumeData = {
         <>
           <ul className="list-inside list-disc">
             <li>Built internal tools to improve developer experience and streamline workflows<br /></li>
+            <li>Developed central dashboard for internal teams to manage customer, video and financial data<br /></li>
             <li>Migrated monolithic legacy API to microservices architecture<br /></li>
-            <li>Advocated for company-wide adoption of automated testing frameworks and implementing it in our team side of the product<br /></li>
-            <li>Implemented performance improvements to the rendering pipeline, helping optimize system resources and reduce processing time<br /></li>
-            <li>Supported growth initiatives by developing landing pages for free tools that increased organic traffic<br /></li>
+            <li>Implemented performance improvements to the rendering pipeline<br /></li>
+            <li>Supported growth initiatives by developing landing pages for free tools that increased organic traffic</li>
+            <li>Advocated for company-wide adoption of automated testing frameworks<br /></li>
           </ul>
         </>
       ),
