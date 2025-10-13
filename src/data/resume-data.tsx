@@ -9,7 +9,7 @@ export const RESUME_DATA: ResumeData = {
   summary: (
     <>
       Self-taught software engineer building and launching products independently.
-      Generalist across the full stack, from designing scalable architectures and APIs
+      Generalist across the full stack, from designing scalable APIs
       to crafting pixel-perfect user interfaces.
     </>
   ),
