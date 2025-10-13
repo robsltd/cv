@@ -48,7 +48,7 @@ export const RESUME_DATA: ResumeData = {
     {
       company: "VEED.IO",
       link: "https://veed.io/",
-      badges: ["Remote", "Next.js", "TypeScript", "Node.js", "Docker", "GCP", "GraphQL"],
+      badges: ["Remote", "Next.js", "TypeScript", "Node.js", "Jest", "GCP", "GraphQL"],
       title: "Software Engineer",
       start: "2022",
       end: "2024",
@@ -59,7 +59,7 @@ export const RESUME_DATA: ResumeData = {
             <li>Migrated monolithic legacy API to microservices architecture<br /></li>
             <li>Implemented performance improvements to the rendering pipeline<br /></li>
             <li>Supported growth initiatives by developing landing pages for free tools that increased organic traffic</li>
-            <li>Advocated for company-wide adoption of automated testing frameworks<br /></li>
+            <li>Advocated for company-wide adoption of unit and integration testing frameworks<br /></li>
           </ul>
         </>
       ),
@@ -67,7 +67,7 @@ export const RESUME_DATA: ResumeData = {
     {
       company: "Jeco.dev",
       link: "https://jeco.dev/",
-      badges: ["Remote", "Next.js", "JavaScript", "Node.js", "AWS", "Digital Ocean"],
+      badges: ["Remote", "React", "JavaScript", "Node.js", "AWS", "Digital Ocean"],
       title: "Software Engineer",
       start: "2019",
       end: "2021",
