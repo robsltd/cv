@@ -5,7 +5,7 @@ export const RESUME_DATA: ResumeData = {
   initials: "RS",
   location: "Cluj-Napoca, Romania, EET",
   locationLink: "https://www.google.com/maps/place/Cluj-Napoca",
-  about: "Full-stack software engineer specializing in taking products from concept to production.",
+  about: "Full-stack software engineer specializing in taking products from concept to production",
   summary: (
     <>
       Self-taught software engineer building and launching products independently.
