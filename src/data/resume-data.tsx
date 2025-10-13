@@ -5,12 +5,12 @@ export const RESUME_DATA: ResumeData = {
   initials: "RS",
   location: "Cluj-Napoca, Romania, EET",
   locationLink: "https://www.google.com/maps/place/Cluj-Napoca",
-  about: "Full stack software engineer specializing in taking ideas from concept to production.",
+  about: "Full stack software engineer specializing in taking products from concept to production.",
   summary: (
     <>
-      Self-taught software engineer who builds and launches products independently.
-      Generalist across the full stack—from designing scalable architectures and APIs
-      to crafting user interfaces.
+      Self-taught software engineer building and launching products independently.
+      Generalist across the full stack, from designing scalable architectures and APIs
+      to crafting pixel-perfect user interfaces.
     </>
   ),
   avatarUrl: "https://lh3.googleusercontent.com/a/ACg8ocLPOIZNAaz-mMkBQTlC5dRHu7pbnAicismtuy3hqrDfuqdzbXU3SQ=s576-c-no",
