@@ -74,9 +74,13 @@ export const RESUME_DATA: ResumeData = {
 
       description: (
         <>
-          Building and scaling products for clients and internal ventures.
+          Building and scaling products for clients and internal ventures.<br />Authored technical content on web
+          scraping and APIs, with articles published on Smashing Magazine.
           <br /><br />
           <ul className="list-inside list-disc">
+            <li>
+              Full-stack development across multiple product launches
+            </li>
             <li>
               Migrated <a href="https://webscrapingapi.com/" style={{
                 fontWeight
@@ -91,9 +95,14 @@ export const RESUME_DATA: ResumeData = {
               product owners, and marketers to deliver complete features including real-time
               chat system and clinic/doctor management systems
             </li>
-            <li>
-              Full-stack development across multiple product launches
-            </li>
+            <li>Wrote <a style={{
+              fontWeight
+                : "bold"
+            }} href="https://www.webscrapingapi.com/author/robert">technical articles</a> covering web scraping techniques, REST API best practices, and developer tooling, including
+              publication on <a style={{
+                fontWeight
+                  : "bold"
+              }} href="https://www.smashingmagazine.com/author/robert-sfichi/">Smashing Magazine</a></li>
           </ul>
         </>
       ),
