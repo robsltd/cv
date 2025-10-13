@@ -55,7 +55,7 @@ export const RESUME_DATA: ResumeData = {
       description: (
         <>
           <ul className="list-inside list-disc">
-            <li>Built central dashboard for internal teams to manage customer, video and financial data<br /></li>
+            <li>Built internal tools to enhance CS, B2B, and Product team workflows<br /></li>
             <li>Migrated monolithic legacy API to microservices architecture<br /></li>
             <li>Implemented performance improvements to the rendering pipeline<br /></li>
             <li>Supported growth initiatives by developing landing pages for free tools that increased organic traffic</li>
