@@ -70,13 +70,13 @@ export const RESUME_DATA: ResumeData = {
       badges: ["Remote", "React", "JavaScript", "Node.js", "AWS", "Digital Ocean"],
       title: "Software Engineer",
       start: "2019",
-      end: "2021",
+      end: "2022",
 
       description: (
         <>
-          Building and scaling products for clients and internal ventures.<br />Authored technical content on web
+          {/* Building and scaling products for clients and internal ventures.<br />Authored technical content on web
           scraping and APIs, with articles published on Smashing Magazine.
-          <br /><br />
+          <br /><br /> */}
           <ul className="list-inside list-disc">
             <li>
               Full-stack development across multiple product launches
@@ -111,13 +111,13 @@ export const RESUME_DATA: ResumeData = {
       company: "Sunny Side Up",
       link: "https://www.sunnysideup.agency/",
       badges: ["On Site", "Adobe Premiere Pro", "After Effects"],
-      title: "Filme Editor & Camera Operator",
+      title: "Film Editor & Camera Operator",
       start: "2015",
       end: "2019",
       description: (
         <>
-          Created commercials for local and global brands, working across roles including
-          director, script-writer, camera operator, and editor.
+          Created commercials for local and global brands as director, script-writer,
+          camera operator, and editor.
         </>
       ),
     },
