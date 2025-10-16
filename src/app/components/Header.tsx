@@ -55,7 +55,7 @@ function SocialButton({
   label,
 }: SocialButtonProps) {
   const IconComponent = ICON_MAP[iconType];
-  
+
   return (
     <Button className="size-8" variant="outline" size="icon" asChild={true}>
       <a
@@ -81,7 +81,7 @@ function ContactButtons({
 }: ContactButtonsProps) {
   return (
     <ul
-      className="flex list-none gap-x-1 pt-1 font-mono text-sm text-foreground/80 print:hidden"
+      className="flex list-none gap-x-1 pt-1 text-sm text-foreground/80 print:hidden"
       aria-label="Contact links"
     >
       {personalWebsiteUrl && (
@@ -134,7 +134,7 @@ function PrintContact({
   personalWebsiteUrl,
 }: PrintContactProps) {
   return (
-    <div className="hidden gap-x-2 font-mono text-sm text-foreground/80 print:flex print:text-[12px]">
+    <div className="hidden gap-x-2 text-sm text-foreground/80 print:flex print:text-[12px]">
       {personalWebsiteUrl && (
         <>
           <a
@@ -179,14 +179,14 @@ export function Header() {
         <h1 className="text-2xl font-bold" id="resume-name">
           {RESUME_DATA.name}
         </h1>
-        <p className="max-w-md text-pretty font-mono text-sm text-foreground/80 print:text-[12px]">
+        <p className="max-w-xl text-pretty text-sm text-foreground/80 print:text-[12px]">
           {RESUME_DATA.about}
         </p>
 
-        <LocationLink
+        {/* <LocationLink
           location={RESUME_DATA.location}
           locationLink={RESUME_DATA.locationLink}
-        />
+        /> */}
 
         <ContactButtons
           contact={RESUME_DATA.contact}
