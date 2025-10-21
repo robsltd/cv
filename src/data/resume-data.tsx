@@ -8,7 +8,7 @@ export const RESUME_DATA: ResumeData = {
   about: "Full-stack software engineer specializing in taking products from concept to production",
   summary: (
     <>
-      Self-taught software engineer building and launching products independently.
+      Detail-oriented software engineer building and launching products independently.
       Generalist across the full stack, from designing scalable APIs
       to crafting pixel-perfect user interfaces.
     </>
@@ -67,7 +67,7 @@ export const RESUME_DATA: ResumeData = {
     {
       company: "Jeco.dev",
       link: "https://jeco.dev/",
-      badges: ["Remote", "React", "JavaScript", "Node.js", "AWS", "Digital Ocean"],
+      badges: ["Remote", "React", "JavaScript", "Node.js", "AWS"],
       title: "Software Engineer",
       start: "2019",
       end: "2022",
@@ -116,22 +116,25 @@ export const RESUME_DATA: ResumeData = {
       end: "2019",
       description: (
         <>
-          Created commercials for local and global brands as director, script-writer,
-          camera operator, and editor.
+          <ul className="list-inside list-disc">
+            <li>Created commercials for local and global brands as director, script-writer,
+              camera operator, and editor.</li>
+          </ul>
         </>
       ),
     },
   ],
   skills: [
-    "React",
-    "Next.js",
     "TypeScript",
-    "Tailwind CSS",
-    "Remotion",
-    "Vite",
-    "WebSockets",
+    "React",
     "Node.js",
+    "Next.js",
+    "Vite",
+    "Jest",
+    "Remotion",
+    "WebSockets",
     "GraphQL",
+    "Docker",
     "Cloudflare",
     "AWS",
     "GCP",
@@ -158,7 +161,7 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "Explainer Slop",
-      techStack: ["Remotion", "AWS Lambda + S3", "Whisper API", "TypeScript", "React", "Vite", "Cloudflare"],
+      techStack: ["Remotion", "AWS Lambda + S3", "TypeScript", "React", "Vite", "Cloudflare"],
       description:
         "Completely automated video generation tool that creates dialogue explainer videos between Stewie and Peter Griffin.",
       link: {
@@ -168,7 +171,7 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "Cite Buddy",
-      techStack: ["Browser Extension", "openAI API", "TypeScript"],
+      techStack: ["Browser Extension", "TypeScript", "GCP", "React"],
       description:
         "AI-powered citation generator Chrome extension supporting APA, MLA, Chicago, and 10+ citation formats with one-click source citation copying.",
       link: {
