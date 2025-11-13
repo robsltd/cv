@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -81,4 +83,9 @@
 
 body {
   zoom: 1.25;
+}
+
+html {
+  font-family: "Stack Sans Headline", "Comic Sans MS", cursive, sans-serif;
+  font-optical-sizing: auto;
 }

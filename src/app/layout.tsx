@@ -7,21 +7,21 @@ import type React from "react";
 import { ErrorBoundary } from "@/components/error-boundary";
 import { RESUME_DATA } from "@/data/resume-data";
 
-const inter = localFont({
-  src: [
-    {
-      path: "../../fonts/mdsystem.otf",
-      weight: "400",
-      style: "regular",
-    },
-    {
-      path: "../../fonts/mdsystem-bold.otf",
-      weight: "700",
-      style: "bold",
-    },
-  ],
-  display: "swap", // Preloads the font and swaps it in when ready
-});
+// const inter = localFont({
+//   src: [
+//     {
+//       path: "../../fonts/mdsystem.otf",
+//       weight: "400",
+//       style: "regular",
+//     },
+//     {
+//       path: "../../fonts/mdsystem-bold.otf",
+//       weight: "700",
+//       style: "bold",
+//     },
+//   ],
+//   display: "swap", // Preloads the font and swaps it in when ready
+// });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://robertsfichi.com"),
@@ -95,7 +95,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en">
       <body>
         <ErrorBoundary>{children}</ErrorBoundary>
       </body>

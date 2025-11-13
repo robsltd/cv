@@ -117,8 +117,7 @@ export const RESUME_DATA: ResumeData = {
       description: (
         <>
           <ul className="list-inside list-disc">
-            <li>Created commercials for local and global brands as director, script-writer,
-              camera operator, and editor.</li>
+            <li>Worn many hats creating commercials for local and global brands as editor, script-writer, director and camera operator.</li>
           </ul>
         </>
       ),
