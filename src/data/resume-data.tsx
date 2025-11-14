@@ -13,7 +13,7 @@ export const RESUME_DATA: ResumeData = {
       to crafting pixel-perfect user interfaces.
     </>
   ),
-  avatarUrl: "https://lh3.googleusercontent.com/a/ACg8ocLPOIZNAaz-mMkBQTlC5dRHu7pbnAicismtuy3hqrDfuqdzbXU3SQ=s576-c-no",
+  avatarUrl: "https://shorturl.at/h3eCd",
   personalWebsiteUrl: "",
   contact: {
     email: "robsfichi@gmail.com",
@@ -29,11 +29,6 @@ export const RESUME_DATA: ResumeData = {
         url: "https://www.linkedin.com/in/robertsfichi/",
         icon: "linkedin",
       },
-      // {
-      //   name: "X",
-      //   url: "https://x.com/BartoszJarocki",
-      //   icon: "x",
-      // },
     ],
   },
   education: [
