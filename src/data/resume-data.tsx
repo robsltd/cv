@@ -13,7 +13,7 @@ export const RESUME_DATA: ResumeData = {
       to crafting pixel-perfect user interfaces.
     </>
   ),
-  avatarUrl: "https://shorturl.at/h3eCd",
+  avatarUrl: "https://i.imgur.com/hIzYZXy.jpeg",
   personalWebsiteUrl: "",
   contact: {
     email: "robsfichi@gmail.com",
